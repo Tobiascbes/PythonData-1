@@ -6,8 +6,12 @@ try:
 except ModuleNotFoundError:
     import triangle
 
+
 def main():
-    # Call the functions from here
+    # Call the functions from here´
+
+    print(triangle.hypothenuse(5, 10))
+    print(triangle.area(10, 5))
 
 if __name__ == "__main__":
     main()
